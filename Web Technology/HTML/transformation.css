@@ -1,0 +1,34 @@
+body{
+    border: solid 5px black;
+}
+section{
+
+}
+section{
+    color: red;
+
+}
+div{
+    border: solid 5px black;
+}
+/* space combinator selects all the h1 child present inside selection */
+section h1{
+    color: red;
+} 
+/* (>) cominator select all the h1 child present inside section */
+section>h1{
+    color: red;
+
+}
+/* (~) combinator select all the h1 sibling present after selection */
+section~h1{
+    color: red;
+}
+/* (+) combinator selects only exact h1 sibling present exactly after selection */
+section+h1{
+    color: red;
+}
+
+
+
+

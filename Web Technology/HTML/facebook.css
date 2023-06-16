@@ -1,0 +1,40 @@
+h1{
+    background-color: blue;
+    
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+selection{
+    background-color: orange; 
+}
+h1{
+    margin: 0px;
+}
+div{
+    background-color: aqua;
+    width: 350px;
+    height: 300px;
+}
+*{
+
+   border: solid 1px black;
+}
+*{
+      margin: 0px;
+      padding: 0px;
+    font-family:cursive;
+}
+.cls{
+    background-color: blueviolet;      
+    color: aliceblue; 
+    width: 100px;
+    height: 50px;
+}
+#box{
+    background-color: blueviolet;      
+    color: aliceblue; 
+    width: 100px;
+    height: 50px;
+}

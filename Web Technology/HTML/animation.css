@@ -1,0 +1,44 @@
+div{
+    background-color: gold;
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+    border: solid 1px black;
+    border-radius: 10px;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+ 0%{
+    background-color: gold;
+    border-radius: 50%;
+    transform: rotate();
+
+ }
+ 20%{
+    background-color: red;
+ border-radius: 0%;
+ transform: rotate(360deg);
+ }
+ 40%{
+    background-color: brown;
+    border-radius: 50%;
+    transform: rotate(360deg);
+ }
+ 60%{
+    background-color: blue;
+    border-radius: 0%;
+    transform: rotate(360deg);
+ }
+ 80%{
+    background-color:orange;
+    border-radius: 50%;
+    transform: rotate(360deg);
+ }
+ 100%{
+    background-color: gold;
+    border-radius: 0%;
+    transform: rotate(360deg);
+ }
+}

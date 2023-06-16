@@ -1,0 +1,164 @@
+
+26/04/2023 1st class
+---------------------
+SYLLUBAS : ------
+fundamentals  
+keywords
+1. all words that you can Use  
+2. how to save a value
+3. what are di || value
+4. operation
+5. programming control
+variables and values
+rules of identifiers 
+datatypes 
+operations 
+flow control statements
+1. DMS     - if ,if else, if else if else,switch
+2. looping    -  for, while , do while, for in, for of 
+ functions 
+
+ECMA script - 6
+
+
+let , const  
+template literal 
+arrays and  its inbuilt method
+String and  its inbuilt method
+objects and CRUD for method
+date objects 
+setTime & setInterval methods
+local storage and session storage
+
+
+DOM :
+
+getElementById()
+innerText
+append()
+perpend()
+getAttribute()
+setAttribute()
+style()
+event listeners
+
+
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+27/04/2023
+------------
+javascript is a integrated language which means it will execute our program line by line.4
+
+science we have this bheviour , even through we have an error in some lines of code  , output.
+will be given for previous line of program.
+ semicoolans are not mandatory , but should be used as a best practies.
+
+
+
+KEYWORDS:
+
+keywords are the reserverd words in the programming language ,which will do some specific set of task.
+EX -:
+var, if, else, switch, for, while, do, continue, brake, return, function typeof.
+
+
+VARIABLES : 
+
+-> Variables are containers or named memory location which used to storing data (storing data values).
+-> javascript is un-typed language we does not decide the datatype in compile time ,
+   so we just create a variables using ONE SINGLE KEYWORD ***VAR***.
+-> Default value in javascript is undefined.
+
+-> syntax : var variablename       =       any value; 
+              declaration                 initalization
+
+Rules to declare identifiers
+  
+  -> first char should be an alphabate or "$" or "_".
+  -> rest of char can be alpha numeric  or "$" or "_".
+  -> Keywords cannot be an identifier.
+  -> use alwas camel case for identifier.(EX-: ItIsWord first letter is in upper case)
+  -> identifier are case sencitivite.
+ 
+
+
+ ------------------------------------------------------------------------------------------------------------------------------
+ 28/04/2023
+
+ Data Type
+ --------------
+
+1.primitive.
+2.non-primitive.
+
+
+-> primitive.                         ->non-primitive
+============                          ================
+number.                                    object.
+String.
+boolean.
+undefined
+
+->  to check the datatype we have typesof operator on operand
+
+1) Arthematic operator.(+,-,*,/,%,**)    -> to do arthematic operations
+2) Assignment operator.                  -> to assign the value to memory
+3) Comparision operator.                 -> to compare any values and to get boolean output.
+4) logical.                              -> to combine multiple boolean and produce one boolean o/p
+5) unary.                                -> operates which had only one operand
+6) ternary or conditional.               -> alternate of if and else 
+7) string.                               +
+
+
+-> to do String concatination
+ 
+==============================================================================================================================
+01/05/2023
+
+Flow Control Statement
+==========================
+to control the execution flow of the statement.
+
+DMS : 
+if,if else, if else if,switch
+
+Looping :
+for ,while , do while
+
+
+FUNCTIONS :
+ 
+
+
+
+ 
+1)DMS (if,if else, ifelse if,switch)
+2)loop( for,while,do while)
+========================================================================================================================================================================================================================================================================================================================================================================================
+
+
+callBack function :-
+--------------------
+Map:-
+out put based on input length 
+returns in boolean value
+it's working only operation .
+
+Filter:-
+return in int 
+it's working only condition.
+
+reduce:-
+EX:-
+-----
+let a=[1,2,3,4,5]
+let result = a.reduce((sum,x)=>{
+    return sum+=x
+},0)
+console.log(result);
+
+
+     
+
+

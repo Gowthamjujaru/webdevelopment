@@ -1,0 +1,33 @@
+body{
+    background-color: purple;
+}
+selection{
+    background-color: black;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+
+#box1{
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+#box2{
+    background-color: aqua;
+ position: fixed;
+    height: 80px;
+    button:
+}
+#box3{
+    background-color: gray;
+    height: 80px;
+
+}
+#box4{
+    background-color:maroon;
+    height: 80px;
+}
